@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #000 !important;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000 !important;
+    overflow-x: hidden;
+}
+
+/*--------------------Navbar------------------*/
+.container {
+    max-width: 1500px;
+}
+
+a {
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+
+}
+
+a:hover {
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.navbar-brand { 
+    color: rgb(236, 110, 79) !important;
+    font-size: 20px !important;
+}
+
+.nav-link {
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.nav-link.log-button {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: rgb(211, 107, 81);
+    color: #fff !important;
+}
+
+.nav-link.sign-button {
+    border-radius: 10px;
+    padding: 10px 15px !important;
+    color: #000 !important;
+}
+
+/*--------------Banner Section-----------*/
+
+.banner-section {
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner-video{
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
+    object-fit: cover;
+}
+
+.booking-process {
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+.form-group.col-md-4 {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.box-container {
+    padding: 150px;
+}
+
+.form-row.box {
+    justify-content: center;
+}
+
+.label {
+   padding-top: 10px;
+}
+
+.search-button {
+    display: flex;
+    background: rgb(211, 107, 81);
+    max-width: 150px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: auto;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.btn.search-btn {
+    font-size: 24px;
+    z-index: 1;
+    padding: 5px;
+}
+
+/*-----------------Cards Section------------------*/
+.headline {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 5px;
+}
+
+.row {
+    margin: 0 -5px;
+    justify-content: center;
+}
+
+.card {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.card h3 {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cards {
+    height: 100%;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+}
+
+.bottomline {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 5px;
+}
+
+/*----------------------Ratings Section----------------*/
+.row1 {
+    margin: 0 -5px;
+    justify-content: center;
+    display: flex;
+}
+
+.card1 {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.card1 h3 {
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card1 h4 {
+    padding-top: -10px;
+}
+
+.ratings {
+    height: 100%;
+    font-weight: 800 !important;
+    font-size: 34px !important;
+}
+
+.rating-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(182, 180, 180);
+}
+
+/*------------Space Section---------------*/
+.space {
+    padding-top: 5%;
+}
+
+/*-----------Footer Section---------------*/
+.logo-text {
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 6%;
+    font-size: 20px;
+    background-color: rgb(182, 180, 180);
+    font-weight: 500 !important;
+}
+
+.footer-logo:link {
+    text-decoration: none;
+  }
+  
+.footer-logo:visited {
+    text-decoration: none;
+  }
+  
+.footer-logo:hover {
+    text-decoration: none;
+  }
+  
+.footer-logo:active {
+    text-decoration: none;
+  }
+
+.footer-logo {
+    color: rgb(234, 94, 59) !important;
+    font-size: 35px !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container-footer {
+    float: right;
+    box-sizing: border-box;
+    margin-top: -16%;
+    margin-right: 10%;
+}
+
+.container-footer div {
+    font-weight: 800 !important;
+    margin: 10px;
+}
+
+.container-footer div ul {
+    font-weight: 500 !important;
+    padding-top: 20px;
+}
+
+/*--------------Copyright Section----------*/
+.copyright-section {
+    padding-top: -10%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(182, 180, 180);
+}
+
+.copyright-section p {
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="assests/css/style.css">
+
+    <!--Font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito+Sans:opsz@6..12&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap">
+
+  </head>
+  <body>
+
+    <!--Header Section Start Here-->
+    <header class="header-section">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+          <!--Logo-->
+          <a class="navbar-brand" href="#">
+            <img src="assests/images/truck.png" alt width="30"
+              height="30" class="d-inline-block align-text-top"> RESERVE
+          </a>
+
+          <!--Hamburger Menu/ Toggle button-->
+          <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Navbar-->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"
+                  href="#" target="_blank">Ticket
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="assests/Reetika's Resume.pdf" target="_blank">Contact us</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link log-button" href="#"
+                  data-toggle="modal"
+                  data-target="#logInModal">Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sign-button" href="#"
+                  data-toggle="modal"
+                  data-target="#signInModal">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--1st Section-->
+    <section class="banner-section">
+      <!--Banner Video-->
+      <video id="banner-video" autoplay muted loop>
+        <source src="assests/videos/video (1080p) (1).mp4"
+          type="video/mp4">Your browser doesn't support this video
+        tag.
+      </video>
+
+      <!--Banner Booking Containers-->
+      <div class="container">
+        <div class="box-container">
+          <div class="booking-process">
+            <div class="booking-container">
+              <div class="form-row box">
+                <div class="form-group col-md-4">
+                  <label for="from-destination">From</label>
+                  <select class="form-control" id="from">
+                    <option>Delhi, New Delhi</option>
+                    <option>Gujarat, Gandhinagar</option>
+                    <option>Mumbai, Maharastra</option>
+                    <option>Rajasthan, Jaipur</option>
+                    <option>Bengluru, Karnataka</option>
+                    <option>Hyderabad, Telengana</option>
+                  </select>
+                  <label class="label" for="from-destination">India</label>
+                </div>
+
+                <div class="form-group col-md-4">
+                  <label for="to-destination">To</label>
+                  <select class="form-control" id="to">
+                    <option>Delhi, New Delhi</option>
+                    <option>Gujarat, Gandhinagar</option>
+                    <option>Mumbai, Maharastra</option>
+                    <option>Rajasthan, Jaipur</option>
+                    <option>Bengluru, Karnataka</option>
+                    <option>Hyderabad, Telengana</option>
+                  </select>
+                  <label class="label" for="from-destination">India</label>
+                </div>
+
+                <div class="form-group col-md-4">
+                  <label for="travel-date">Travel Date</label>
+                  <input type="date" class="form-control"
+                    id="date" placeholder="Select Date">
+                </div>
+
+                <div class="search-button col-md-3">
+                  <button type="button"
+                    class="btn search-button">Search</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--2nd Scetion-->
+    <section class="cards">
+      <!--Headline-->
+      <div class="headline">
+        <h1>Pack your bags. We’re going on vacation!</h1>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="assests/images/bus.png" height="100px" width="100px">
+            <h3>2000+</h3>
+            <h4>Bus Collection</h4>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="assests/images/customer-satisfaction.png" height="100px"
+              width="100px">
+            <h3>20 million</h3>
+            <h4>Happy Customer's Globally</h4>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="assests/images/ticket.png" height="100px" width="100px">
+            <h3>5000+</h3>
+            <h4>Tickets bookes Everyday</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottomline">
+        <h2>Here's what a few of our customers<br>have to sat about us</h2>
+      </div>
+
+    </section>
+
+    <!--3rd Section-->
+    <section class="ratings">
+      <div class="rating-container">
+        <div class="rating-cards">
+          <div class="row1">
+            <div class="column1">
+              <div class="card1">
+                <img src="assests/images/user.png" height="50px" width="50px">
+                <h3>Kevin</h3>
+                <h4><img src="assests/images/rating.png" height="100px"
+                    width="110px"></h4>
+              </div>
+            </div>
+
+            <div class="column1">
+              <div class="card1">
+                <img
+                  src="assests/images/female-hair-shape-and-face-silhouette.png"
+                  height="50px" width="50px">
+                <h3>Helly</h3>
+                <h4><img src="assests/images/rating.png" height="100px"
+                    width="110px"></h4>
+              </div>
+            </div>
+
+            <div class="column1">
+              <div class="card1">
+                <img src="assests/images/user.png" height="50px" width="50px">
+                <h3>Simon</h3>
+                <h4><img src="assests/images/rating.png" height="100px"
+                    width="110px"></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--4th Section-->
+    <section class="space">
+
+    </section>
+    <!--Footer Section-->
+    <section class="footer-section">
+      <div class="footer-container">
+
+        <div class="logo-text">
+          <h1>
+            <a class="footer-logo" href="#">
+              <img src="assests/images/truck.png" alt width="50"
+                height="50" class="d-inline-block align-text-top"> RESERVE
+            </a>
+          </h1>
+          <div class="para" id="one">
+            <p style="margin-bottom: 0;">When you have a choice. Choose Reserve.<br><br>
+              Reserve offers bus tickets booking<br>through its website, IOS,
+              and androids<br>mobile apps for all major cities.<br><br>
+              reserve.bus@reserve.com</p>
+          </div>
+
+          <div class="container-footer">
+            <div class="row">
+              <div class="col order-1">About
+                <ul>
+                  <p>About Us</p>
+                  <p>Contact Us</p>
+                </ul>
+              </div>
+              <div class="col order-2">Links
+                <ul>
+                  <p>Careers</p>
+                  <p>FAQ</p>
+                  <p>T & C</p>
+                  <p>Privacy policy</p>
+                  <p>Blog</p>
+                </ul>
+              </div>
+              <div class="col order-3">Follow us
+                <ul>
+                  <p>
+                    <img src="assests/images/instagram.png" height="30" width="30">
+                    <img src="assests/images/facebook.png" height="30" width="30">
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="copyright-section">
+          <div class="copyright">
+            <hr class="horizontal"
+              style="height: 2px; border-width: 0; color: gray; background-color: gray; margin: 0; margin-bottom: 2%;">
+            <p>All Rights reserved - 2023</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bootstrap and jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  </body>
+</html>
